@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishwa Pratap Singh Chauhan - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <script>
+        // JavaScript to add 'scrolled' class on scroll
+        window.addEventListener("scroll", () => {
+            const navbar = document.querySelector("nav");
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="container flex main-nav">
+      <div class="company-logo">
+        <h2>Vishwa's Portfolio</h2>
+      </div>
+      <div class="nav-links">
+        <ul class="flex">
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Header Section -->
+<header class="header-section">
+  <div class="container flex">
+    <div class="header-left">
+      <div class="hero-section">
+        <br><br>
+        <h1 class="typing-effect">
+          Hi, I'm <span id="typed-name"></span>
+        </h1>
+      </div>
+      <p>A passionate Computer Science 2nd Year Student Thriving to Get Better, Exploring all
+        the Gates of Fun and Growth Getting Ready in every Way Possible. I’m currently learning coding and working on making it my own. Alongside that, I have a passion for photography and cinematography—I love creating visuals that tell a story. I don’t want to limit myself to just one thing; I want to explore every field, dive into new experiences, and keep growing. For me, it’s all about learning, experimenting, and finding out what truly excites me</p>
+      <a class="primary-button" href="#contact">Get in Touch</a>
+      <!-- Moved the Quote after the button -->
+       <br><br><br><br><br>
+      <blockquote class="quote">
+        “Incredible change happens in your life when you decide to take control of what you have power over instead of craving control over what you don’t.” 
+        <span class="author">- Steve Maraboli</span>
+      </blockquote>
+    </div>
+    <div class="header-right">
+      <img src="vishwa.png" alt="Vishwa Pratap Singh Chauhan">
+    </div>
+  </div>
+</header>
+
+  <!-- About Section -->
+  <section class="about-img-section" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Vishwa! A passionate learner and developer with a knack for
+        solving complex problems through creativity and code. a passionate second-year B.Tech Computer Science student at ABS Engineering College, Ghaziabad. I'm from Aligarh, where I completed my schooling. I enjoy exploring technology, organizing creative events, and engaging in activities that bring people together. With a keen interest in programming and problem-solving, I aim to make a meaningful impact in my field while embracing challenges and opportunities.
+        <br>
+        <br>
+        Leetcode Questions : 51
+        <br>
+        Codechef Questions : 75
+        <br>
+        Hackerank Star     :     ☆☆☆☆☆
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section section-gap">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-area flex">
+        <div class="skill-card">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-java"></i>
+          <h3>Java</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-database"></i>
+          <h3>MySQL</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>DSA</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-python"></i>
+          <h3>DSA</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- DSA Journey Section -->
+<section id="dsa-journey" class="dsa-journey section-gap">
+  <div class="container">
+    <h2>My DSA Journey</h2>
+    <p>
+      My journey into Data Structures and Algorithms (DSA) began as a challenge to understand the core of problem-solving. 
+      Over time, it has transformed into a passion for improving efficiency and thinking creatively. 
+      From solving beginner-level problems to tackling advanced coding challenges, I’ve consistently aimed to grow and evolve as a developer. 
+      Each problem I solve teaches me something new about logic, optimization, and perseverance.
+    </p>
+    <div class="dsa-platforms flex">
+      <div class="platform-card">
+        <img src="Leetcode.png" alt="LeetCode Logo" class="platform-logo">
+        <h3>LeetCode</h3>
+        <p>Solved 51+ problems to improve my problem-solving skills and mastery of algorithms.</p>
+        <a href="https://leetcode.com/your-profile" target="_blank" class="platform-link">Visit My Profile</a>
+      </div>
+      <div class="platform-card">
+        <img src="codechef.png" alt="CodeChef Logo" class="platform-logo">
+        <h3>CodeChef</h3>
+        <p>Practiced competitive programming, solving 75+ challenges to sharpen my coding abilities.</p>
+        <a href="https://www.codechef.com/users/your-profile" target="_blank" class="platform-link">Visit My Profile</a>
+      </div>
+      <div class="platform-card">
+        <img src="hackerank.png" alt="HackerRank Logo" class="platform-logo">
+        <h3>HackerRank</h3>
+        <p>Achieved a 5-star rating while solving problems across various domains.</p>
+        <a href="https://www.hackerrank.com/your-profile" target="_blank" class="platform-link">Visit My Profile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section section-gap">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-area flex">
+        <div class="project-card">
+          <img src="profile.png" alt="Portfolio Website">
+          <h3>Portfolio Website</h3>
+          <p>A personal website to showcase my skills and projects.</p>
+        </div>
+        <div class="project-card">
+          <img src="books.png" alt="Library Management System">
+          <h3>Library Management System</h3>
+          <p>A Java-based application to manage library resources efficiently.</p>
+        </div>
+        <div class="project-card">
+          <img src="weather.svg" alt="Weather App">
+          <h3>Weather App</h3>
+          <p>A JavaScript app that fetches real-time weather data.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section section-gap">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for collaborations or just a friendly chat!</p>
+      <form action="https://formspree.io/f/{your_form_id}" method="POST">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="primary-button">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2024 Vishwa Pratap Singh Chauhan. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Code -->
+  <script>
+    const name = "Vishwa Pratap Singh Chauhan";
+    const typedNameElement = document.getElementById("typed-name");
+    let index = 0;
+
+    function typeEffect() {
+      if (index < name.length) {
+        typedNameElement.textContent += name.charAt(index);
+        index++;
+        setTimeout(typeEffect, 100);
+      }
+    }
+
+    window.onload = typeEffect;
+  </script>
+</body>
+</html>
